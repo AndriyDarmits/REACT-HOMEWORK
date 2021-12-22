@@ -1,6 +1,28 @@
 
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.list{
+  list-style-position: inside;
+}
 
 .list span{
   color: red;
+}
+.header{
+  display: block;
+  text-align: center;
+  background-color: rgb(35, 166, 226);
+}
+
+.flex{
+  display: flex;
+
+}
+
+.flex div{
+  margin-right: 50px;
 }
