@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
 
 
 
@@ -49,6 +50,7 @@ const obj = {
 
 function App() {
   return (
+
     <div>
       <h1 className="header">My first react application</h1>
       {obj.getFullName()}
